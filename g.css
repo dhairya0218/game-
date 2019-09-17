@@ -1,0 +1,104 @@
+{
+	margin-top:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #24272E;
+}
+
+header
+{
+	background: white;
+	margin-top: -20px;
+	height: 50px;
+	margin-left: -10px;
+	margin-right: -10px;
+
+}
+
+header > h1{
+	color: darkblue;
+	text-align: center;
+	margin-top: 20px;
+} 
+
+.scoring {
+	margin: 20px auto;
+	border: 3px solid white;
+	border-radius: 5px;
+	text-align: center;
+	width: 200px;
+	color: white;
+	font-size: 40px;
+	padding: 15px 20px;
+	position: relative;
+}
+.box {
+	background: red;
+	color: white;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+#user-part
+{
+	position: absolute;
+	top: 20px;
+	left: -25px;
+}
+.results > p {
+	text-align: center;
+	font-weight: bold;
+}
+.choose{
+	margin: 50px 0;
+	text-align: center;
+}
+.choice{
+	border-radius: 50%;
+	display: inline-block;
+	padding: 25px;
+
+}
+.choice:hover {
+	cursor: pointer;
+}
+#message{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#comp-part
+{
+	position: absolute;
+	top: 20px;
+	right: -25px;
+}
+.results {
+	font-size: 40px;
+	color: white;
+}
